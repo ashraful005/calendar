@@ -1,0 +1,26 @@
+.calendar li{
+    list-style: none;
+    height: 125px;
+    background-color: rgb(27, 173, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    color: white;
+}
+.calendar ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 15px;
+}
+.calendar .other{
+    background-color: rgb(180, 211, 69);
+}
+.calendar .day{
+    background-color: rgb(120, 117, 167);
+    color: white;
+}
+.calendar .red{
+    color: rgb(240, 16, 16);
+    font-size: 34px;
+}
